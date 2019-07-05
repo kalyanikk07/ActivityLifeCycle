@@ -5,7 +5,8 @@
 
 jobs:
   build:
-    machine: true
+    steps:
+      machine: true
 general:
     artifacts:
         - /home/ubuntu/ActivityLifeCycle/app/build/outputs/apk/
