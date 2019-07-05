@@ -5,8 +5,7 @@
 
 jobs:
   build:
-    steps:
-      - run: echo "outside the executor"
+    machine: true
 general:
     artifacts:
         - /home/ubuntu/ActivityLifeCycle/app/build/outputs/apk/
