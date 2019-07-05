@@ -6,7 +6,11 @@
 jobs:
   build:
      working_directory: ~/AndroidstudioProjects_new/ActivityLifeCycle
-      machine: true
+       steps:
+        - run:
+             name: "Test the commit for org or team processes"
+                 command: |
+                   echo "This is where we'd test this commit for things our project wants to enforce"
 general:
     artifacts:
         - /home/ubuntu/ActivityLifeCycle/app/build/outputs/apk/
