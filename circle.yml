@@ -2,11 +2,11 @@
 # Build configuration for Circle CI
 #
 
+
 jobs:
   build:
-    working_directory: ~/code
     steps:
-      - run: echo outside the executor
+      - run: echo "outside the executor"
 general:
     artifacts:
         - /home/ubuntu/ActivityLifeCycle/app/build/outputs/apk/
