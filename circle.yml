@@ -5,6 +5,7 @@
 
 jobs:
   build:
+     working_directory: ~/AndroidstudioProjects_new/ActivityLifeCycle
       machine: true
 general:
     artifacts:
