@@ -2,6 +2,10 @@
 # Build configuration for Circle CI
 #
 
+jobs:
+  build:
+    working_directory: ~/code
+
 general:
     artifacts:
         - /home/ubuntu/ActivityLifeCycle/app/build/outputs/apk/
